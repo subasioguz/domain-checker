@@ -1,8 +1,8 @@
 version: '3.9'
 services:
   node:
-    container_name: domain-checker-app
-    image: domain-checker-app
+    container_name: domain-checker
+    image: domain-checker
     build:
       context: .
       dockerfile: Dockerfile
